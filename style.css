@@ -34,3 +34,30 @@ body{
         font-size: 1rem;
     }
 }
+
+.rating {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    color: gray;
+    background-color: #f4edea;
+    border: 10px solid #f4d1ae;
+}
+
+.rating label {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.rating button {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    color: #f4d1ae;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
